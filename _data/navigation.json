@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "title": "Hem",
+            "url": "/"
+        },
+        {
+            "title": "om oss",
+            "url": "/about"
+        },
+        {
+            "title": "Grafisk profil",
+            "url": "/graphic-profile"
+        }
+    ]
+}

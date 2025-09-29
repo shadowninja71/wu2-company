@@ -1,0 +1,158 @@
+body {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: orange;
+}
+
+.site-head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: orange;
+    background-color: #333;
+    border-bottom: 4px solid green;
+    padding-inline: 2rem;
+}
+
+.site-head a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.site-head a:hover {
+    color: re;
+    text-decoration: underline;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+img { max-width: 100%;}
+
+.hero {
+    display: grid;
+    grid-template-areas: "hero";
+}
+
+.hero > * {
+    grid-area: hero;
+}
+
+.hero-content {
+    display: grid;
+    place-items: center;
+    color: white;
+}
+
+.hero-content h1 { 
+    font-size: 7rem;
+}
+
+.hero-content h2 { 
+    font-size: 4rem;
+}
+
+.container {
+    width: min(100vw - 3rem, 56rem );
+    margin-inline: auto;
+}
+
+.region {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.testimonials-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonials-list li {
+    border-radius: 100%;
+}
+
+.testimonials img {
+    border-radius: 100%;
+    aspect-ratio: 1;
+}
+
+.hero-image {
+    max-height: 80vh;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: center;
+}
+
+.body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+    font-size:  1.2rem;
+}
+
+.card-list {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid orange;
+    border-radius: 25px;
+    max-width: 18rem;
+    display: flex;
+    flex-direction: column;
+    img{
+        aspect-ratio: 1;
+        object-fit: cover;
+        object-position: center;
+        max-width: 100%;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+}
+
+.card-content{
+    padding: 1rem;
+}
+.region {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+.color-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  list-style: none;
+  
+  li {
+    aspect-ratio: 1;
+    width: 10rem;
+    display: grid;
+    place-items:center;
+    border: 1px solid var(--color-dark);
+  }
+}
+.Light {
+    background-color: var(--color-primary);
+  }
+.Dark{
+    background-color: #333;
+}
+.Secondary{
+    background-color: red;
+}
+.light-primary {
+    color: var(--color-light);
+    background-color: var(--color-primary);
+  }
