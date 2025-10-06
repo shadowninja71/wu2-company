@@ -1,0 +1,29 @@
+{
+    "items": [
+        {
+            "title": "Måndag", 
+            "text": "lyxig dryck med blåbär och appelsin",
+            "image": "images/mat_resize.jpg"
+        },
+        {
+            "title": "Tisdag", 
+            "text": "Pankakor med gräde och bär",
+            "image": "images/pankakor.jpg"
+        },
+        {
+            "title": "Onsdag", 
+            "text": "Grönskas salad med svamp och bönor",
+            "image": "images/grönsaker.jpg"
+        },
+        {
+            "title": "Torsdag", 
+            "text": "Lax med grönsaker",
+            "image": "images/lax.jpg"
+        },
+        {
+            "title": "Fredag", 
+            "text": "Grönsaks salad med valnöter",
+            "image": "images/salad.jpg"
+        }
+    ]
+}

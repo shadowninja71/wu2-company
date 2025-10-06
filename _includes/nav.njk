@@ -1,7 +1,10 @@
-<nav class="nav nav-list site-head"> 
-    <ul>
-        {% for item in navigation.items %}
-            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-        {% endfor %}
-    </ul>
-</nav>
+<header class="site-head">
+    <a href="/">hologram Matlagningskurser</a>
+    <nav class="nav"> 
+        <ul class="nav-list">
+            {% for item in navigation.items %}
+                <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>
