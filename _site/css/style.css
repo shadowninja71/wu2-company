@@ -109,7 +109,7 @@ img { max-width: 100%;}
 .card {
     border: 1px solid orange;
     border-radius: 25px;
-    max-width: 18rem;
+    max-width: 20rem;
     display: flex;
     flex-direction: column;
     img{

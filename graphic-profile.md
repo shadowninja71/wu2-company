@@ -21,9 +21,11 @@ title: Grafisk profil
         <div class="region">
         <h2>Exempel bilder</h2>
         <div class="card">
-            <img src="/images/dryck.jpg" alt="Example image">
-            <img src="/images/lax.jpg" alt="Example image">
-            <img src="/images/pankakor.jpg" alt="Example image">
+            <img src="/images/dryck.jpg" alt="Example image1">
+            <img src="/images/lax.jpg" alt="Example image2">
+            <img src="/images/pankakor.jpg" alt="Example image3">
+        </div>
+        <div class="card">
         </div>
         </div>
         <footer class="region">
