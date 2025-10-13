@@ -3,7 +3,8 @@ layout: layout.html
 title: Om oss
 ---
 <article class="body">
-            <div class="card">
+             <div class="card">
+                <img src="/images/building.jpg" alt="">
                 <div class="card-content">
                     <h2>kontakt</h2>
                     <h3>hologram matlagning</h3>
@@ -14,7 +15,4 @@ title: Om oss
                     <p>viktorhvid07@gmail.com</p>
                 </div>
             </div>
-            <div class="card">
-                <img src="/images/building.jpg" alt="">
-            </div>
-        </article>
+</article>
