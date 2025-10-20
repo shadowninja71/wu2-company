@@ -2,9 +2,9 @@
 layout: layout.html
 title: Om oss
 ---
-<article class="body">
+<article class="card-list">
              <div class="card">
-                <img src="/images/building.jpg" alt="">
+                <img class="hero-image" src="/images/building.jpg" alt="helllow">
                 <div class="card-content">
                     <h2>kontakt</h2>
                     <h3>hologram matlagning</h3>

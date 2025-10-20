@@ -1,7 +1,7 @@
 <div class="card-list">
     {%- for item in veckomeny.items -%}
     <div class="card">
-        <img src="{{ item.image }}">
+        <img eleventy:ignore src="{{ item.image }}" alt="{{ item.alt }}">
         <div class="card-content">
             <h2>{{ item.title }}</h2>
             <p>{{ item.text }}</p>

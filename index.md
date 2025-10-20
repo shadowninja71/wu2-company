@@ -4,7 +4,7 @@ title: Hologram Matlagningskurser
 ---
 
 <header class="hero">
-    <img class="hero-image" src="/images/mat_resize.jpg" alt="game">
+    <img class="hero-image" src="/images/mat_resize.jpg" alt="Hologram Matlagningskurser">
     <div class="hero-content">
         <h1>Hologram Matlagningskurser</h1>
         <h2>Det bästa setet att laga mat som smakar got och är biligare.</h2>

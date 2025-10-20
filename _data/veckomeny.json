@@ -3,27 +3,32 @@
         {
             "title": "Måndag", 
             "text": "lyxig dryck med blåbär och appelsin",
-            "image": "images/mat_resize.jpg"
+            "image": "images/mat_resize.jpg",
+            "alt": "bild på mat"
         },
         {
             "title": "Tisdag", 
             "text": "Pankakor med gräde och bär",
-            "image": "images/pankakor.jpg"
+            "image": "images/pankakor.jpg",
+            "alt": "bild på pankakor"
         },
         {
             "title": "Onsdag", 
             "text": "Grönskas salad med svamp och bönor",
-            "image": "images/grönsaker.jpg"
+            "image": "images/grönsaker.jpg",
+            "alt": "bild på grönsaker"
         },
         {
             "title": "Torsdag", 
             "text": "Lax med grönsaker",
-            "image": "images/lax.jpg"
+            "image": "images/lax.jpg", 
+            "alt": "bild på lax"
         },
         {
             "title": "Fredag", 
             "text": "Grönsaks salad med valnöter",
-            "image": "images/salad.jpg"
+            "image": "images/salad.jpg",
+            "alt": "bild på salad"
         }
     ]
 }
